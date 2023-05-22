@@ -1,0 +1,34 @@
+<div class="container">
+<h1>Stupid Coaching</h1>
+
+
+<div class="card mb-2">
+  <div class="card-header">
+    Question
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-2">
+      <p> <%= @question %> </p>
+      <footer class="blockquote-footer"><cite title="Source Title">You</cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+<div class="card mb-2">
+  <div class="card-header">
+    Answer
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-2">
+      <p>
+        <%= @answer%>
+      </p>
+      <footer class="blockquote-footer"><cite title="Source Title">Stupid Coach</cite></footer>
+    </blockquote>
+  </div>
+</div>
+
+
+
+<%=link_to 'Ask a new question', ask_path%>
+</div>
